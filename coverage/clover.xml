@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1574792075929" clover="3.2.0">
+  <project timestamp="1574792075929" name="All files">
+    <metrics statements="340" coveredstatements="214" conditionals="99" coveredconditionals="33" methods="77" coveredmethods="43" elements="516" coveredelements="290" complexity="0" loc="340" ncloc="340" packages="4" files="10" classes="10"/>
+    <package name="src">
+      <metrics statements="50" coveredstatements="50" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Constants.js" path="E:\bzemba\Downloads\ceros-ski\ceros-ski-master\src\Constants.js">
+        <metrics statements="50" coveredstatements="50" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="86" count="3" type="stmt"/>
+        <line num="95" count="3" type="stmt"/>
+        <line num="104" count="3" type="stmt"/>
+        <line num="112" count="3" type="stmt"/>
+        <line num="120" count="3" type="stmt"/>
+        <line num="122" count="3" type="stmt"/>
+        <line num="132" count="3" type="stmt"/>
+        <line num="142" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Core">
+      <metrics statements="131" coveredstatements="66" conditionals="34" coveredconditionals="5" methods="29" coveredmethods="16"/>
+      <file name="AssetManager.js" path="E:\bzemba\Downloads\ceros-ski\ceros-ski-master\src\Core\AssetManager.js">
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="25" type="stmt"/>
+        <line num="12" count="25" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="25" type="stmt"/>
+        <line num="20" count="25" type="stmt"/>
+        <line num="21" count="25" type="stmt"/>
+        <line num="22" count="25" type="stmt"/>
+        <line num="23" count="25" type="stmt"/>
+        <line num="25" count="25" type="stmt"/>
+        <line num="26" count="25" type="stmt"/>
+        <line num="28" count="25" type="stmt"/>
+        <line num="33" count="48" type="stmt"/>
+      </file>
+      <file name="Canvas.js" path="E:\bzemba\Downloads\ceros-ski\ceros-ski-master\src\Core\Canvas.js">
+        <metrics statements="24" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+      </file>
+      <file name="Game.js" path="E:\bzemba\Downloads\ceros-ski\ceros-ski-master\src\Core\Game.js">
+        <metrics statements="80" coveredstatements="21" conditionals="30" coveredconditionals="1" methods="15" coveredmethods="5"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="89" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="111" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="130" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="135" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="137" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="151" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="152" count="1" type="stmt"/>
+        <line num="153" count="1" type="stmt"/>
+        <line num="154" count="1" type="stmt"/>
+        <line num="155" count="1" type="stmt"/>
+        <line num="156" count="1" type="stmt"/>
+        <line num="157" count="1" type="stmt"/>
+        <line num="159" count="1" type="stmt"/>
+        <line num="160" count="1" type="stmt"/>
+        <line num="161" count="1" type="stmt"/>
+        <line num="162" count="1" type="stmt"/>
+        <line num="164" count="1" type="stmt"/>
+      </file>
+      <file name="Utils.js" path="E:\bzemba\Downloads\ceros-ski\ceros-ski-master\src\Core\Utils.js">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="8" count="24" type="cond" truecount="4" falsecount="0"/>
+        <line num="15" count="48" type="stmt"/>
+        <line num="16" count="48" type="stmt"/>
+        <line num="17" count="48" type="stmt"/>
+        <line num="18" count="48" type="stmt"/>
+        <line num="21" count="48" type="stmt"/>
+        <line num="22" count="48" type="stmt"/>
+        <line num="23" count="48" type="stmt"/>
+        <line num="24" count="48" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Entities">
+      <metrics statements="113" coveredstatements="80" conditionals="49" coveredconditionals="27" methods="33" coveredmethods="22"/>
+      <file name="Entity.js" path="E:\bzemba\Downloads\ceros-ski\ceros-ski-master\src\Entities\Entity.js">
+        <metrics statements="15" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="15" count="24" type="stmt"/>
+        <line num="19" count="38" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="40" count="8" type="stmt"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="42" count="8" type="stmt"/>
+        <line num="43" count="7" type="stmt"/>
+      </file>
+      <file name="Rhino.js" path="E:\bzemba\Downloads\ceros-ski\ceros-ski-master\src\Entities\Rhino.js">
+        <metrics statements="36" coveredstatements="36" conditionals="12" coveredconditionals="12" methods="6" coveredmethods="6"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="29" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="55" count="14" type="stmt"/>
+        <line num="57" count="14" type="stmt"/>
+        <line num="69" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="70" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="71" count="3" type="stmt"/>
+        <line num="73" count="14" type="stmt"/>
+        <line num="74" count="14" type="stmt"/>
+        <line num="75" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="78" count="13" type="stmt"/>
+        <line num="95" count="10" type="stmt"/>
+        <line num="96" count="10" type="stmt"/>
+        <line num="102" count="10" type="stmt"/>
+        <line num="103" count="10" type="stmt"/>
+        <line num="104" count="10" type="stmt"/>
+        <line num="110" count="10" type="stmt"/>
+        <line num="111" count="10" type="stmt"/>
+        <line num="121" count="1" type="stmt"/>
+        <line num="122" count="1" type="stmt"/>
+        <line num="123" count="7" type="stmt"/>
+        <line num="126" count="1" type="stmt"/>
+        <line num="127" count="1" type="stmt"/>
+        <line num="135" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="Skier.js" path="E:\bzemba\Downloads\ceros-ski\ceros-ski-master\src\Entities\Skier.js">
+        <metrics statements="62" coveredstatements="33" conditionals="37" coveredconditionals="15" methods="20" coveredmethods="10"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="26" count="21" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="6"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="92" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="98" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="100" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="106" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="112" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="114" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="119" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="129" count="1" type="cond" truecount="2" falsecount="3"/>
+        <line num="130" count="1" type="stmt"/>
+        <line num="131" count="1" type="stmt"/>
+        <line num="132" count="1" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="139" count="14" type="stmt"/>
+        <line num="140" count="14" type="stmt"/>
+        <line num="147" count="14" type="stmt"/>
+        <line num="148" count="14" type="stmt"/>
+        <line num="149" count="14" type="stmt"/>
+        <line num="150" count="14" type="stmt"/>
+        <line num="156" count="14" type="stmt"/>
+        <line num="159" count="14" type="cond" truecount="1" falsecount="1"/>
+        <line num="161" count="14" type="stmt"/>
+        <line num="163" count="14" type="stmt"/>
+        <line num="164" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="166" count="14" type="stmt"/>
+        <line num="167" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="168" count="1" type="stmt"/>
+        <line num="169" count="13" type="cond" truecount="4" falsecount="0"/>
+        <line num="170" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Entities.Obstacles">
+      <metrics statements="46" coveredstatements="18" conditionals="16" coveredconditionals="1" methods="15" coveredmethods="5"/>
+      <file name="Obstacle.js" path="E:\bzemba\Downloads\ceros-ski\ceros-ski-master\src\Entities\Obstacles\Obstacle.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="ObstacleManager.js" path="E:\bzemba\Downloads\ceros-ski\ceros-ski-master\src\Entities\Obstacles\ObstacleManager.js">
+        <metrics statements="42" coveredstatements="14" conditionals="16" coveredconditionals="1" methods="14" coveredmethods="4"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="17" count="14" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="56" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="100" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
