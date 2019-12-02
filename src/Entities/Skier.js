@@ -157,7 +157,6 @@ export class Skier extends Entity {
         });
 
         if(collision) {
-			// Not real happy with this section of code here but it is functional
 			let skier = this;
 			// This would be easier to verify if the skier is jumping if the jump assets where in an array with the strings as values
 			let skierJumping = Object.keys(Constants.SKIER_JUMP_ASSET).some( (key) => {

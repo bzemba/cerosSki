@@ -17,7 +17,7 @@ export class Rhino extends Entity {
 	}
 
 	/* 
-		huntSkier( Entity, AssetManager ):
+		huntTarget( Entity, AssetManager ):
 			* target entity object to hunt
 			* assetManager for retrival of assets and determining sizes for collisions
 			* moves the rhino closer to the target at the constant rhino speed
@@ -55,12 +55,17 @@ export class Rhino extends Entity {
 		const targetPosition = target.getPosition();
 		
 		this.y = targetPosition.y;
-		/* if(target.assetName == Constants.SKIER_CRASH){
+		/* 
+		 instead of the above code that sets y to the target position could do some 
+		 implementation as such so that the rhino only gains on the target when the target 
+		 is crashed, would make the game more fun so that the rhino only closes in on you 
+		 while you are crashed. If i had more time I would write some logic for this.
+		if(target.assetName == Constants.SKIER_CRASH){
 			this.y++;
 		}else{
 			this.y = targetPosition.y - 150;
 		} */
-		
+
 		// wanted to use modulus here to swap assets for rhino but canvas x y cordinates like to go into decimals and his movement becomes inconsitent
 		// in replace of that a simple stepCounter is used that alternates the asset for the rhino after this method has been called Constants.RHINO_STEP_SPEED number of times
 		/* if(this.y.toFixed(0) % 7 == 0){
@@ -81,7 +86,7 @@ export class Rhino extends Entity {
 
 	
 	/* 
-		huntSkier( Entity, AssetManager ):
+		checkForCollisionWithTarget( Entity, AssetManager ):
 			* target entity object to hunt
 			* assetManager for retrival of assets and determining sizes for collisions
 			* this is similar to the method on the skier checkIfSkierHitObstacle and we could potentially write two new methods 
