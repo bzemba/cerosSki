@@ -20,7 +20,6 @@ unclear, don't hesitate to reach out.
 **Requirements**
 
 * **Fix a bug:**
-***Resolved in Skier.js turnLeft method line 89***
   There is a bug in the game. Well, at least one bug that we know of. Use the following bug report to debug the code
   and fix it.
   * Steps to Reproduce:
@@ -29,11 +28,12 @@ unclear, don't hesitate to reach out.
     1. Press the left arrow key
   * Expected Result: The skier gets up and is facing to the left
   * Actual Result: Giant blizzard occurs causing the screen to turn completely white (or maybe the game just crashes!)
+***Resolved in Skier.js turnLeft method line 89***
 	
 * **Write unit tests:**
-***New jest test file Skier.test.js and test Skier Turn Left after Crash written***
   The base code has Jest, a unit testing framework, installed. Write some unit tests to ensure that the above mentioned
   bug does not come back.
+***New jest test file Skier.test.js and test Skier Turn Left after Crash written***
   
 * **Extend existing functionality:**
 
@@ -47,7 +47,7 @@ unclear, don't hesitate to reach out.
     * Rocks can be jumped over
 		***Added new constant for rock assets, skier collision logic updated to stop crashing when collision with a rock while jumping***
     * Trees can NOT be jumped over
-		***Crashes still occur when hitting trees even while jumping, no logic was added to allow the skier to continue when these collision occur***
+		***Crashes still occur when hitting trees even while jumping***
   * Anything else you'd like to add to the skier's jumping ability, go for it!
 		***animateAsset method added to Entity.js, used to animate skier jump and rhino eat, speed at which animation occors controlled via Constants.ANIMATION_DELAY_MS**
    
@@ -59,13 +59,40 @@ unclear, don't hesitate to reach out.
   * The Rhino should appear after a set amount of time or distance skied and chase the skier, using the running assets
     we've provided to animate the rhino.
 	***Created new Rhino enitiy subclass, rhino will appear after a set distance has been traveled by the skier : Constants.SKIER_DISTANCE_TO_UNLEASH_RHINO***
-	***Could easily add a timer to the code to have the rhino ***
-  * If the rhino catches the skier, it's game over and the rhino should eat the skier. 
+  * If the rhino catches the skier, it's game over and the rhino should eat the skier.
+	***-Animation for Rhino to eat skier added to new Rino class *** 
 
 * **Documentation:**
 
   * Update this README file with your comments about your work; what was done, what wasn't, features added & known bugs.
+		***- New Rhino Entity Class with the following methods (See Rhino.js for detailed ***- ***- descriptions)***
+		***- 	huntTarget***
+		***- 	moveCloserToTarget***
+		***- 	killTarget ***
+		***- 	checkForCollisionWithTarget***
+		***- 	getTravelDirection***
+		
+		***animateAsset method added to Entity.js, used to animate skier jump and rhino eat, speed at which animation occors controlled via Constants.ANIMATION_DELAY_MS**
+		
+		***- New Constants: ***
+		***- * SKIER_HORIZONTAL_SPEED : Speed that the skier travels at when traveling horizontally ***
+		***- * SKIER_DISTANCE_TO_UNLEASH_RHINO: The distance the skier has to travel when the first rhino is unleashed ***
+		***- * NEXT_RHINO_DISTANCE_MULTIPLIER: The multiplier for how often to release another rhino ***
+		***- * RHINO_COUNT: Number of rhinos to create ***
+		***- * ANIMATION_DELAY_MS: The time delay between each image change for animations ***
+		***- * RHINO_CHASE_SPEED: Speed at which rhino entities travel after the skier ***
+		***- * RHINO_STEP_SPEED: How fast the stepping animation for the rhino occurs ***
+
+		***- * I completed all listed requirements for resolving a bug, adding new features to the skier and adding a new type of entity. ***
+		***- * Resolved an additional bug by adding null check for previousGameWindow in Game.js line 60. Reproduction steps for this bug was to just continue to refresh the page and every now and then you will get an error message in the console and the game will not load. ***
+		***- * After completing the required coding challenges I decided to send in another rhino from the left so that the when this occurs it is only a matter of time before the skier is caught since you will not be able to ski away from rhinos coming in at both directions. I thought this would be a good feature to add to the game to showcase good object oriented design. If I had more time I would probably just keep it to 1 rhino but have the rhino not always get the y position of the target. Instead I would have the rhino start off not only to the right but above the skier and the rhino would only get closer to the skier as far as y position goes only when the skier is crashed. X positioning of the rhino would stay the way it is now, which right now he can handle changing directions if he runs past the skier. You can see this if you comment out line 57 in Rhino.js and uncomment the if code block below it. ***
+		***- * I added comments throughout the code so please go through the source code and take a look at those for further details. ***
+		***- * Included is the coverage of all unit tests, it is in a folder called coverage. You can open the index.html file in the lcov-report folder to view the reports. If I had more time I would work towards achieving 100% coverage on all code, for this excercise I chose to just achive 100% coverage for the new class I created, Rhino.js. ***
+		
   * Provide a way for us to view the completed code and run it, either locally or through a cloud provider
+	***- I have deployed an instance of this to firebase at https://zemba-ceros-ski.web.app/ for you to play without running this locolly***
+	***- If your reading this you have already recieved a zip of the source, in addition I have placed the code on github here ***
+
   
 * **Be original:**  
   * This should go without saying but don’t copy someone else’s game implementation!
