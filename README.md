@@ -85,6 +85,8 @@ unclear, don't hesitate to reach out.
 		excercise I chose to just achive 100% coverage for the new class I created, Rhino.js.
 		* Reset game functionality was also added as well as just an alert message once you have been caught. 
 		Press enter to reset the game when the game is over***
+		* Another issue is that the game does not work in IE or EDGE browser, only in Firefox and Chrome, I did not spend any time into 
+		resolving this issue.
 		
 		* New Rhino Entity Class with the following methods (See Rhino.js for detailed descriptions)
 		 	huntTarget
